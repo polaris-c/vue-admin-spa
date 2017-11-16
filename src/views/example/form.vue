@@ -1,5 +1,6 @@
 <template>
-<div v-cloak>
+<div v-cloak>  
+    (src/views/example/form)
     <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
       <el-form-item label="活动名称" prop="name">
             <el-col :span="11" >

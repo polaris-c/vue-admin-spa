@@ -1,5 +1,6 @@
 <template>
   <div class="app-container">
+        (src/views/movie/newMovie)
     <h2 style="color:red">
         注意：此页面使用了豆瓣api，请求方式为jsonp，支持分页功能。
     </h2>

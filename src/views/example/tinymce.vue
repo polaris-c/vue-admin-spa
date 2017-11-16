@@ -1,6 +1,6 @@
 <template>
   <div class="components-container">
-    
+    (src/views/example/tinymce)
     <div>
       <Tinymce :height=200 ref="editor" v-model="content"></Tinymce>
     </div>

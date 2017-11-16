@@ -1,5 +1,6 @@
 <template>
     <div class="login-container">
+        (src/views/login/index)
         <el-form autoComplete="on" :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left"
                  label-width="0px"
                  class="card-box login-form">

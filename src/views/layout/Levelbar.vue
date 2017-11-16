@@ -1,6 +1,7 @@
 <template>
   <!-- 面包屑导航 对element-ui的面包屑进行二次封装 -->
   <el-breadcrumb class="app-levelbar" separator="/">
+    (src\views\layout\Levelbar)
     <el-breadcrumb-item v-for="(item,index)  in levelList" :key="item">
     
         <router-link v-if='item.redirect==="noredirect"||index==levelList.length-1' to="" class="no-redirect">{{item.name}}</router-link>

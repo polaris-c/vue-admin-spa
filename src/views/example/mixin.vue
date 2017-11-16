@@ -1,7 +1,6 @@
 <template>
-  <div class="components-container">
-    
-
+  <div class="components-container">   
+    (src/views/example/mixin)
     <div class='component-item'>
       <el-button v-waves type="primary">水波纹效果</el-button>
       <code class='code-part'>水波纹 v-directive</code>

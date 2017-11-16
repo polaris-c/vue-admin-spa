@@ -10,10 +10,11 @@
             
                 </el-menu-item>
             </router-link> -->
-
+(src/views/layout/
+sidebaritem)
             <router-link  to="/index/personalInfo"  v-if="routes['/index/personalInfo']" >
                 <el-menu-item index="/index/personalInfo">
-                    <i class="fa fa-home" aria-hidden="true"></i> 首页
+                    <i class="fa fa-home" aria-hidden="true"></i> 首页(sidebaritem)
             
                 </el-menu-item>
             </router-link>

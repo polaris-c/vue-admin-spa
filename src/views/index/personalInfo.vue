@@ -1,5 +1,6 @@
 <template>
   <div class="app-container">
+        (src/views/index/personalinfo)
         <el-row :gutter="20">
             <el-col :span="8">
                 

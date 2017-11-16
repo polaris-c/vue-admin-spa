@@ -1,10 +1,11 @@
 <template>
+
     <section class="app-main" style="min-height: 100%">
         <!-- 面包屑 -->
         <Levelbar></Levelbar> 
+(src/views/layout/AppMain)        
         <!--  <br/> <lv></lv> -->
         <!-- <level-bar></level-bar><br/> -->
-        
         <transition name="fade" mode="out-in">
             <router-view :key="key"></router-view>
         </transition>

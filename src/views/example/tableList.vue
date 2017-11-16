@@ -1,11 +1,10 @@
 <template>
   <div class="app-container">
-    <!-- 搜索条件 -->
+    <!-- 搜索条件 -->(src/views/example/tablelist)
     <div class="filter-container">
+
       <el-input @keyup.enter.native="handleFilter" style="width: 200px;" class="filter-item" placeholder="标题" v-model="listQuery.title">
       </el-input>
-
-     
 
       <el-select clearable class="filter-item" style="width: 130px" v-model="listQuery.type" placeholder="类型">
         <el-option v-for="item in  typeOptions" :key="item.key" :label="item.display_name+'('+item.key+')'" :value="item.key">

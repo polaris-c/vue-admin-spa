@@ -1,5 +1,8 @@
 <template>
+
     <div class="app-wrapper" :class="{hideSidebar:!sidebar.opened}">
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp (src\views\layout\Layout)
         <div class="sidebar-wrapper">
             <Sidebar class="sidebar-container" />
         </div>

@@ -1,7 +1,8 @@
 <template>
     <div class="">
+        
         <el-menu class="navbar" mode="horizontal">
-            
+        (src\views\layout\Navbar)    
             <i class="fa fa-bars" @click="toggleSideBar" :isActive="sidebar.opened"></i>
            
             <tabs-view></tabs-view>
@@ -17,7 +18,7 @@
                 <el-dropdown-menu class="user-dropdown" slot="dropdown">
                     <router-link class='inlineBlock' to="/index/personalInfo">
                         <el-dropdown-item>
-                            首页
+                            首页(src\views\layout\Navbar)
                         </el-dropdown-item>
                     </router-link>
                     <el-dropdown-item >
